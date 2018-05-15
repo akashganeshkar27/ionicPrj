@@ -1,9 +1,17 @@
 <ion-header>
   <ion-navbar>
+      <button ion-button menuToggle icon-only>
+          <ion-icon name='menu'></ion-icon>
+        </button>
     <ion-title>Home</ion-title>
   </ion-navbar>
 </ion-header>
-
+<ion-navbar *navbar>
+    <button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+    <ion-title>Getting Started</ion-title>
+</ion-navbar>
 <ion-content padding>
   <h2>Welcome to Ionic Application!</h2>
   <p>
